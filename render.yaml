@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: mc-hotel-backend
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_EXPIRES_IN
+        value: 8h
+      - key: PAYMENT_GATEWAY_WEBHOOK_SECRET
+        sync: false

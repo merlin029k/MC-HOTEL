@@ -11,11 +11,7 @@ const ROOM_TYPES = [
     base_price: 25000,
     max_guests: 2,
     units: ['101', '102', '103'],
-    photos: [
-      'https://picsum.photos/seed/mc-hotel-standard-1/1200/800',
-      'https://picsum.photos/seed/mc-hotel-standard-2/1200/800',
-      'https://picsum.photos/seed/mc-hotel-standard-3/1200/800',
-    ],
+    photos: ['/images/rooms/standard-1.jpg', '/images/rooms/standard-2.jpg', '/images/rooms/standard-3.jpg'],
     amenities: ['Free Wi-Fi', 'Air conditioning', 'Flat-screen TV', 'En-suite bathroom'],
   },
   {
@@ -24,11 +20,7 @@ const ROOM_TYPES = [
     base_price: 40000,
     max_guests: 3,
     units: ['201', '202'],
-    photos: [
-      'https://picsum.photos/seed/mc-hotel-deluxe-1/1200/800',
-      'https://picsum.photos/seed/mc-hotel-deluxe-2/1200/800',
-      'https://picsum.photos/seed/mc-hotel-deluxe-3/1200/800',
-    ],
+    photos: ['/images/rooms/deluxe-1.jpg', '/images/rooms/deluxe-2.jpg', '/images/rooms/deluxe-3.jpg'],
     amenities: ['Free Wi-Fi', 'Air conditioning', 'King bed', 'City view'],
   },
   {
@@ -37,10 +29,7 @@ const ROOM_TYPES = [
     base_price: 65000,
     max_guests: 4,
     units: ['301', '302'],
-    photos: [
-      'https://picsum.photos/seed/mc-hotel-suite-1/1200/800',
-      'https://picsum.photos/seed/mc-hotel-suite-2/1200/800',
-    ],
+    photos: ['/images/rooms/suite-1.jpg', '/images/rooms/suite-2.jpg'],
     amenities: ['Free Wi-Fi', 'Separate living room', 'Minibar', 'Premium bathroom'],
   },
 ];

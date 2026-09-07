@@ -53,7 +53,7 @@ export default function HomePage() {
       <section className="relative overflow-hidden bg-brand-700 text-white">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://picsum.photos/seed/mc-hotel-hero/1600/700"
+          src="/images/rooms/hero.jpg"
           alt=""
           className="absolute inset-0 h-full w-full object-cover opacity-25"
         />
